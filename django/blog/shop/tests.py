@@ -23,4 +23,3 @@ class TestShop:
         url_for_test = requests.get('127.0.0.1/shop/')
         assert_correct_response(url_for_test, ok)
 
-# test
