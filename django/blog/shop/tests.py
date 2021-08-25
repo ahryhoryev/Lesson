@@ -21,4 +21,8 @@ def assert_correct_response(response, response_code, error_message=''):
 class TestShop:
     def test_positive_response(self):
         url_for_test = requests.get('127.0.0.1/shop/')
+<<<<<<< HEAD
         assert_correct_response(url_for_test, ok)
+=======
+        assert_correct_response(url_for_test, ok)
+>>>>>>> 6b014c116f7de8f1066cb615fbfa43ddb1dd9d38
